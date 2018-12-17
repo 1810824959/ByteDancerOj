@@ -90,6 +90,10 @@ public class Subject1 {
             System.out.println(fruit);
         }
     }
+
+    public void test3(){
+
+    }
 }
 
 class CompareByLen /*extends Object*/ implements Comparator<String> {

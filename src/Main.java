@@ -5,8 +5,8 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-        Subject1 subject1 = new Subject1();
-        subject1.test();
+        String d = "";
+        System.out.println(d.length());
 //        Stack<Integer> s = new Stack<>();
 //        s.push(1);
 //        s.push(2);
