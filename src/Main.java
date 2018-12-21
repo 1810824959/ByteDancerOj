@@ -5,8 +5,12 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-        String d = "";
-        System.out.println(d.length());
+        int[] nums = {1,2,3};
+        test(nums);
+        System.out.println(nums[1]);
+
+//        String d = "";
+//        System.out.println(d.length());
 //        Stack<Integer> s = new Stack<>();
 //        s.push(1);
 //        s.push(2);
@@ -16,5 +20,10 @@ public class Main {
 //        System.out.println(subject1.lengthOfLongestSubstring("pwwkew"));
 //        System.out.println(subject1.test2("pwwkew"));
 //        System.out.println(subject1.simplifyPath("/a/./b/../../c/"));
+    }
+
+    private static int test(int[] nums){
+        nums[1]=5;
+        return 0;
     }
 }

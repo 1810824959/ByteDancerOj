@@ -32,8 +32,9 @@ public class binarySearch_1 {
     }
 
     public static void main(String[] args) {
-        int nums[] = {1,3,5};
-        binarySearch binarySearch = new binarySearch();
-        binarySearch.search(nums,2);
+        int nums[] = {4,5,6,7,-1,0,1,2,3};
+        binarySearch_1 binarySearch = new binarySearch_1();
+        int search = binarySearch.search(nums, 2);
+        System.out.println(search);
     }
 }
